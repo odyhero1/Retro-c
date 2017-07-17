@@ -12,6 +12,7 @@
 		F60A3EC41F1C2CC400BB5585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A3EC21F1C2CC400BB5585 /* Main.storyboard */; };
 		F60A3EC61F1C2CC400BB5585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60A3EC51F1C2CC400BB5585 /* Assets.xcassets */; };
 		F60A3EC91F1C2CC400BB5585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A3EC71F1C2CC400BB5585 /* LaunchScreen.storyboard */; };
+		F639C9571F1D2496005BC277 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F639C9561F1D2495005BC277 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F60A3EC51F1C2CC400BB5585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60A3EC81F1C2CC400BB5585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60A3ECA1F1C2CC400BB5585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F639C9561F1D2495005BC277 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../../../Downloads/Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F60A3EBD1F1C2CC400BB5585 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F639C9561F1D2495005BC277 /* Minecraft.ttf */,
 				F60A3EBE1F1C2CC400BB5585 /* AppDelegate.swift */,
 				F60A3EC01F1C2CC400BB5585 /* ViewController.swift */,
 				F60A3EC21F1C2CC400BB5585 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				F60A3EC91F1C2CC400BB5585 /* LaunchScreen.storyboard in Resources */,
 				F60A3EC61F1C2CC400BB5585 /* Assets.xcassets in Resources */,
+				F639C9571F1D2496005BC277 /* Minecraft.ttf in Resources */,
 				F60A3EC41F1C2CC400BB5585 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +316,7 @@
 				F60A3ECF1F1C2CC400BB5585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
