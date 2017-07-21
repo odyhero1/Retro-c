@@ -46,8 +46,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numberPressed(sender: UIButton) {
-        playSound()
-        
+//        playSound()
+
         runningNumber += "\(sender.tag)"
         outputLbl.text = runningNumber
     }
@@ -70,16 +70,29 @@ class ViewController: UIViewController {
     
     @IBAction func onEqualPressed(sender: AnyObject) {
         processOperation(operation: currentOperation)
+        playSound()
+
     }
-    
+
+
+    @IBAction func clear(sender: UIButton) {
+
+        runningNumber.removeAll()
+        result.removeAll()
+        outputLbl.text = "0" //displayStack() // remove !
+        outputLbl.font = UIFont(name: "Minecraft", size: 17)
+
+    }
+
+
     func playSound() {
         if btnSound.isPlaying {
             btnSound.stop()
         }
-        
+
         btnSound.play()
     }
-    
+
     func processOperation(operation: Operation) {
         playSound()
         if currentOperation != Operation.Empty {
